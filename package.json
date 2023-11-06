@@ -1,0 +1,22 @@
+{
+  "name": "antlr-typescript-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "grammar": "antlr -Dlanguage=TypeScript -visitor -o ./src ./grammars/cool_lang.g4",
+    "build": "npm exec tsc" ,
+    "demo": "node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/antlr4": "^4.11.5",
+    "antlr4": "^4.13.1",
+    "antlr4ts": "^0.5.0-alpha.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "typescript": "^5.2.2"
+  }
+}
