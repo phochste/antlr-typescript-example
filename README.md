@@ -2,6 +2,16 @@
 
 A basic example how to create an ANTLR program in typescript.
 
+## Dependencies
+
+Antlr4
+
+On OSX
+
+```
+brew install antlr
+```
+
 ## Usage
 
 ```
