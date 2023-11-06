@@ -4,7 +4,7 @@
   "description": "A basic example how to create an ANTLR program in typescript",
   "main": "index.js",
   "scripts": {
-    "grammar": "antlr -Dlanguage=TypeScript -visitor -o ./src ./grammars/cool_lang.g4",
+    "grammar": "rm -rf src/grammars ; antlr -Dlanguage=TypeScript -visitor -o ./src ./grammars/mylang.g4",
     "build": "npm exec tsc" ,
     "demo": "node dist/index.js"
   },
