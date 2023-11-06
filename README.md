@@ -1,6 +1,6 @@
 # antlr-typescript-example
 
-A basic example how to create an ANTLR program in typescript
+A basic example how to create an ANTLR program in typescript.
 
 ## Usage
 

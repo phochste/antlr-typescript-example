@@ -1,7 +1,7 @@
 {
   "name": "antlr-typescript-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "A basic example how to create an ANTLR program in typescript",
   "main": "index.js",
   "scripts": {
     "grammar": "antlr -Dlanguage=TypeScript -visitor -o ./src ./grammars/cool_lang.g4",
